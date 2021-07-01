@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+}
+
+.main-holder {
+  height: 100vh;
+  background: #2750a8;
+}
+
+.auth-container {
+  width: 40%;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hero-section {
+  background: linear-gradient(45deg, #00000061, #0000009e),
+    url(../img/hero-bg.png) no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: 100%;
+  color: #fff;
+}
+
+.hero-section ul {
+  list-style: none;
+}
+
+.hero-section h1 {
+  padding-top: 200px;
+  font-weight: 900;
+}
+
+.section-header h3 {
+  padding: 50px 0;
+}
+
+.event-display {
+  margin: 50px 0;
+}
+
+.event-display img {
+  border-radius: 10px;
+}
+
+.event-display .event-text {
+  color: #012762;
+  background: #f6f6fa;
+  padding: 20px;
+}
+
+.pointer {
+  color: #9ea2bb;
+  margin-bottom: 30px;
+}
+
+.about-section {
+  margin: 50px 0 50px 0;
+}
+
+.testimonial-section {
+  margin-top: 50px;
+}
+.artist-display,
+.fun-display,
+.auction-section {
+  margin: 50px 0 50px 0;
+  background: #f6f6fa;
+}
+
+.cuisine-display {
+  margin: 50px 0 50px 0;
+}
+
+.cuisine-display .cuisine-name {
+  background: #f6f6fa;
+  padding: 20px;
+}
+
+.artist-display .artist-name,
+.other-name {
+  background: #fff;
+  color: #012762;
+  padding: 20px;
+}
+
+.testimonial {
+  border: 1px solid #012762;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.auction-info .price {
+  border-right: 2px solid #012762;
+  padding: 5px;
+}
+
+.auction-info .time {
+  padding: 5px;
+}
+
+footer {
+  background: #2750a8;
+  padding: 50px 0;
+  color: #fff;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer a,
+footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* signup */
+
+.auth-holder {
+  min-height: 100vh;
+}
+
+.form-section,
+.image-section {
+  width: 50%;
+}
+
+.form-section {
+  padding: 20px 100px 50px 100px;
+}
+
+.image-section {
+  background: url(../img/side-img.png) no-repeat;
+  background-size: cover;
+  background-position: 100%;
+}
+
+.bottom-question a {
+  text-decoration: none;
+}
+
+.inner-bar {
+  min-height: 350px;
+  background: #2750a8;
+  color: #fff;
+}
+
+.how-it-works {
+  width: 40%;
+}
+
+.how-it-works .one {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+
+.how-it-works .one .num {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: #011636;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+/* profile pic  */
+
+.profile-pic-holder {
+  position: relative;
+}
+
+.profile-pic {
+  height: 200px;
+  width: 200px;
+  background: url(../img/avatar.png) no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+}
+
+.edit-btn {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background: blue;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+.add-card-btn {
+  border-radius: 10px;
+  border: 2px solid #012762;
+  color: #012762;
+}
+
+/* review  */
+
+.no-review-layout {
+  min-height: 80vh;
+}
+
+.person-image img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+}
+
+.review-box {
+  border-bottom: 1px solid #ccc;
+  padding: 15px;
+}
+
+@media (max-width: 768px) {
+  .auth-container {
+    width: 90%;
+  }
+
+  .hero-section h1 {
+    padding-top: 120px;
+    font-size: 40px;
+  }
+
+  /* auth  */
+  .form-section {
+    width: 100%;
+    padding: 50px 100px;
+  }
+
+  .image-section {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .form-section {
+    padding: 50px 40px;
+  }
+
+  .how-it-works {
+    width: 100%;
+  }
+
+  .how-it-works .one {
+    margin-right: 5px;
+  }
+}

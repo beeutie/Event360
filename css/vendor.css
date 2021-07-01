@@ -1,0 +1,83 @@
+.vendor-landing {
+  background-image: url(../img/vendorlanding.svg);
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.landing-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #cf0212;
+  text-align: center;
+}
+.vendorhead {
+  color: #012762;
+  text-align: center;
+}
+.nav-secondary {
+  background-color: #d8d8d8;
+}
+.flex-secondary {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.position {
+  margin-top: -1rem;
+}
+.flex-secondary li {
+  margin: 8px 15px;
+  color: #012762;
+  font-weight: 600;
+}
+
+.container-head {
+  display: flex;
+  justify-content: space-between;
+}
+.list {
+  background-color: #f6f6fa;
+  padding: 25px;
+}
+.v-btn {
+  background-color: #2750a8;
+  color: #fff;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blue-text {
+  color: #012762;
+  font-weight: bold;
+}
+.bold-text {
+  font-size: 30px;
+  font-weight: bold;
+}
+/* .cards {
+  height: 20rem;
+} */
+
+/*footer */
+
+footer {
+  background: #2750a8;
+  padding: 50px 0;
+  color: #fff;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer a,
+footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
